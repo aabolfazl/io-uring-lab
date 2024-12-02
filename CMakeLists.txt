@@ -8,7 +8,7 @@ include_directories(
     ${URING_INCLUDE_DIRS}
 )
 
-add_executable(io_uring_lab src/main.c)
+add_executable(io_uring_lab src/main.c include/logger.h shared/logger.c)
 
 target_link_libraries(io_uring_lab ${URING_LIBRARIES})
 

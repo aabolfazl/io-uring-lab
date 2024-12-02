@@ -1,18 +1,20 @@
+[![Build Status](https://github.com/aabolfazl/io-uring-lab/actions/workflows/cmake-linux-io-uring.yml/badge.svg)](https://github.com/aabolfazl/io-uring-lab)
+
 # 🚀 io-uring lab
 
 A comprehensive collection of examples demonstrating Linux's high-performance io_uring API. This repository aims to be a practical learning resource for developers who want to understand and implement io_uring in their applications.
 
 ## 🎯 Goal
 
-The primary goal of this project is to provide clear, well-documented examples of io_uring's rich API features. Each example is designed to demonstrate a specific concept or use case, making it easier for learners to understand and implement io_uring in their own projects.
+The primary goal of this project is to provide clear, well-documented examples of io_uring's rich API features. Each example is designed to demonstrate a specific concept or use case, making it easier for learners to understand and implement io_uring in their projects.
 
-This project emerged from the development experience of [Vortex](https://github.com/dyatlov/vortex) - a high-performance Layer 4 Load Balancer built with io_uring. During Vortex's development, I noticed that while io_uring offers powerful capabilities, the learning curve can be steep due to:
+This project emerged from the development experience of [Vortex](https://github.com/aabolfazl/Vortex) - a high-performance Layer 4 Load Balancer built with io_uring. During Vortex's development, I noticed that while io_uring offers powerful capabilities, the learning curve can be steep due to:
 - Scattered documentation across kernel sources
 - Complex interaction patterns
 - Lack of comprehensive, beginner-friendly examples
 - Limited practical implementation references
 
-io_uring-lab aims to bridge this gap by providing:
+io_uring-lab aims to bridge this gap by providing the following:
 - Step-by-step examples progressing from basic to advanced concepts
 - Well-documented code with detailed explanations
 - Practical, real-world usage patterns
@@ -99,15 +101,6 @@ Contributions are warmly welcomed! Here's how you can contribute:
   - Bug fixes
   - Improvements to existing examples
   - Better documentation
-
-## 🛠️ Building
-
-```bash
-mkdir build
-cd build
-cmake ..
-make
-```
 
 ## 📝 License
 
